@@ -4,8 +4,10 @@ import Tab from './components/tab';
 import Tabs from './components/tabs';
 import TabController from './components/tab-controller';
 import ActiveTasks from './components/active-tasks';
+
 function App() {
   const [activeTab, setActiveTab] = useState(0);
+
   return (
     <div className="App">
       <div>
@@ -21,7 +23,7 @@ function App() {
 
 
       <TabController activeTab={activeTab}>
-        <div>
+        <div >
           <ActiveTasks />
         </div>
         <div>
