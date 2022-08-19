@@ -4,7 +4,7 @@
         {
             "name": "Uber",
             "description": "some description text",
-            "icon": "https://i.ytimg.com/vi/zOjov-2OZ0E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuq4fBAUMKIQlnwdI0os2vHeXVTg",
+            "icon": "/images/uber.svg",
             "assignedTo": [
                 {
                     "username": "marius",
@@ -13,9 +13,9 @@
             ]
         },
         {
-            "name": "Uber",
+            "name": "Facebook",
             "description": "some description text",
-            "icon": "https://i.ytimg.com/vi/zOjov-2OZ0E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuq4fBAUMKIQlnwdI0os2vHeXVTg",
+            "icon": "/images/facebook.svg",
             "assignedTo": [
                 {
                     "username": "marius",
@@ -24,9 +24,9 @@
             ]
         },
         {
-            "name": "Uber",
+            "name": "Payoneer",
             "description": "some description text",
-            "icon": "https://i.ytimg.com/vi/zOjov-2OZ0E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuq4fBAUMKIQlnwdI0os2vHeXVTg",
+            "icon": "/images/p.svg",
             "assignedTo": [
                 {
                     "username": "marius",

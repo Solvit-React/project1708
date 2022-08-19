@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
+import "./style.css"
 import TaskRepositoryImpl from "../../../data/repository/task-repository-impl";
+import { TaskItem } from "../task-item";
 
 export default function ActiveTasks(){
     const [tasks, setTasks] = useState([]);
@@ -14,10 +16,7 @@ export default function ActiveTasks(){
 
     return <ul>
        {tasks.map((task, index)=>{
-        return <li key={`task-${index}`}>
-            <img alt="" width="80" src={task.icon} />
-            {task.name}
-        </li>
+        return <TaskItem task={task} index={index}/>
        })}
     </ul>
 }
